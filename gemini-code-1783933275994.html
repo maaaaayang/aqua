@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>아쿠아단 공식 커뮤니티 (팬메이드)</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- 배경 애니메이션용 오버레이 -->
+    <div class="ocean-bg"></div>
+
+    <!-- 헤더 영역 -->
+    <header>
+        <div class="logo">TEAM AQUA</div>
+        <nav>
+            <ul>
+                <li><a href="#vision" class="active">조직 이념</a></li>
+                <li><a href="#leader">총수 아강</a></li>
+                <li><a href="#kyogre">전설의 각성</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- 메인 컨텐츠 리액터 -->
+    <main class="container">
+        
+        <!-- 섹션 1: 조직 이념 -->
+        <section id="vision" class="content-section active">
+            <h2>바다를 넓혀라, 생명의 근원으로!</h2>
+            <p>육지는 인간들의 오만으로 가득 차 가고 있다. 우리 아쿠아단은 대지를 뒤덮는 위대한 바다의 힘을 되찾고, 모든 생명의 고향인 바다를 확장하여 진정한 낙원을 건설하는 것을 목표로 한다.</p>
+            <div class="card">
+                <h3>조직 행동 강령</h3>
+                <ul>
+                    <li>마그마단의 대지 확장 음모를 저지한다.</li>
+                    <li>바다를 더럽히는 어리석은 인간들을 심판한다.</li>
+                    <li>해양 포켓몬과 인간이 공존하는 푸른 행성을 만든다.</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- 섹션 2: 총수 아강 -->
+        <section id="leader" class="content-section">
+            <h2>아쿠아단의 리더, 아강 (Archie)</h2>
+            <p>호쾌하고 정이 많으면서도, 바다를 향한 신념 앞에서는 그 누구보다 냉철하고 거침없는 우리의 총수. 그의 거대한 닻과 샤크니아가 바다의 앞길을 가로막는 모든 것을 부순다.</p>
+            <blockquote class="leader-quote">
+                "대지 따윈 필요 없다! 모든 것은 푸른 바다 속으로 돌아갈 것이다!"
+            </blockquote>
+        </section>
+
+        <!-- 섹션 3: 전설의 각성 -->
+        <section id="kyogre" class="content-section">
+            <h2>초고대 포켓몬, 가이오가</h2>
+            <p>심해에서 잠들어 있는 바다의 화신. 우리는 해저 기지에서 마침내 파란구슬의 힘을 깨우고 가이오가를 부활시킬 준비를 마쳤다. 거대한 폭우가 이 대지를 씻어내릴 것이다.</p>
+            
+            <!-- 가상 인터랙션 버튼 -->
+            <div class="widget-box">
+                <p class="status-text">현재 심해 압력 수치: <span id="pressure-val">100</span>기압</p>
+                <button id="awaken-btn" class="btn">가이오가 각성 프로토콜 시작</button>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- 푸터 영역 -->
+    <footer>
+        <p>&copy; 2026 Team Aqua Fanmade Site. All rights for Pokemon belong to Nintendo/Game Freak.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
